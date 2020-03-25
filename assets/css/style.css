@@ -2,6 +2,7 @@
 body, html {
   height: 100%;
   margin: 0;
+  
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
@@ -13,7 +14,7 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,7 +43,7 @@ body, html {
 .caption {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 40%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -96,18 +97,22 @@ footer {
   bottom: 0;
 }
 
-.container-fluid {
-      min-height: 400px;
-}
-
 /* ------------------------------ Footer */
 
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 15vh;
     margin: 0;
 }
+
+
+#footer-details {
+    position: relative;
+    bottom: 0;
+    padding: 10vh;
+}
+
 
 .cv-pdf i {
     font-size: 18px;
@@ -148,9 +153,12 @@ footer {
     background: #e84610;
 }
 
-#footer-details {
-    padding: 20px;
-}
+/*
+body.modal-open {
+   overflow-y: inherit;  
+   padding-right: 0 !important;
+   
+ }
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
