@@ -1,3 +1,3 @@
-First mockup of one version of my personal resume site - 
+An Old Version.
 
 https://jays-t.github.io/personal-site/
