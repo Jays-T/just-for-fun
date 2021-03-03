@@ -67,11 +67,10 @@ body, html {
   box-shadow: 0 2rem 4rem #000;
 }
 
-.caption-main-say-hi span.border-modal {
-    border: 0.5px solid #fafafa;
-    border-radius: 50px;
-    background-color: rgb(0, 55, 24, 0.3);
-  color: rgb(68, 25, 25);
+.border-modal {
+    border: 1px solid #a50000;
+    background-color: black;
+  color: rgb(160, 106, 5);
   padding: 9px;
   font-size: 12px;
   letter-spacing: 6px;
