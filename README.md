@@ -1,3 +1,3 @@
 An Old Version.
 
-https://jays-t.github.io/personal-site/
+https://jays-t.github.io/just-for-fun/
